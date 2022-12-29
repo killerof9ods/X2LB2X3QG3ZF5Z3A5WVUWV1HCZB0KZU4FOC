@@ -73,7 +73,7 @@ local library = {
             type = "Dynamic";
         };
         healthbar = {
-            enabled = false; 
+            enabled = true; 
             position = "Left";
             empty = color_fromrgb(255, 0, 0);
             color = color_fromrgb(21, 255, 0);
@@ -98,10 +98,10 @@ local library = {
             surround = "";
         };
         health = {
-            enabled = false; 
+            enabled = true; 
             position = "Left";
             more_data = false;
-            auto_color = false;
+            auto_color = true;
             color = color_fromrgb(255, 255, 255);
             outline_color = color_fromrgb(0, 0, 0);
             surround = "";
