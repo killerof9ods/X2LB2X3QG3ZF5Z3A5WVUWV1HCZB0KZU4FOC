@@ -98,7 +98,7 @@ local library = {
             surround = "";
         };
         health = {
-            enabled = false; 
+            enabled = true; 
             position = "Left";
             more_data = false;
             auto_color = false;
